@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ипотечный калькулятор</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <main class="maincontainer">
+    <header class="header-title container">
+        <h1 class="input-label">Ипотечный калькулятор</h1>
+    </header>
+    <section class="section">
+        <div class="div-input">
+            <label for="" class="input-label">Сумма кредита:</label>
+            <input type="number" class="summ"> руб. 
+        </div>
+    </section>
+    <section class="section">
+        <div class="div-input">
+            <label for="" class="input-label">Процентная ставка:</label>
+            <input type="number" class="stavka"> % 
+        </div>
+    </section>
+    <section class="section">
+        <div class="div-input">
+            <label for="" class="input-label">Срок кредита:</label>
+            <input type="number" class="srok"> месяцев 
+        </div>
+    </section>
+    <section class="section">
+        <div class="div-input">
+            <label for="" class="input-label">Вид платежа:</label>
+            <select class="select-vid">
+                <option value="ann">Аннуитетный</option>
+                <option value="dif">Дифференцированный</option>
+            </select>
+        </div>
+    </section>
+    <section class="section">
+        <div class="div-button">
+            <button class="calculation">Раcсчитать</button>
+        </div>
+    </section>
+    <section class="section">
+        <div class="div-price">
+            <label for="" class="label-price">Ежемесячный платёж составит:</label>
+            <input type="number" class="input-price" disabled value=""> руб.
+        </div>
+    </section>
+    <button class="button-clear">Очистить</button>
+    </main>
+    <script src="js/script.js"></script>
+</body>
+</html>

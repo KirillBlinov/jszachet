@@ -1,0 +1,74 @@
+*{
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body{
+    font-size: 15px;
+}
+
+.container{
+    max-width: 450px;
+    width: 90%;
+    margin-left: 10px;
+}
+
+.section{
+    margin-bottom: 20px;
+}
+
+.maincontainer{
+    margin-left: 550px;
+}
+
+.summ, .stavka, .srok, .select-vid, .input-price{
+    width: 150px;
+    height: 30px;
+    background-color: #fff;
+    border-color: rgb(36, 51, 139);
+    border:1px solid;
+    color:black;
+}
+
+.div-price{
+    font-size: 15px;
+}
+
+.summ{
+    margin-left: 50px;
+}
+
+.stavka{
+    margin-left: 18px;
+}
+
+.srok{
+    margin-left: 61px;
+}
+
+.select-vid{
+    margin-left: 67px;
+}
+
+.select-vid{ 
+    border-color: black;
+}
+
+.label-price{
+    margin-left: 20px;
+}
+
+.div-price{
+    margin-left: -20px;
+}
+
+.calculation{
+    margin-left: 150px; 
+}
+
+.button-clear{
+    margin-left: 150px; 
+}
+
+
+
